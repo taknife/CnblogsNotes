@@ -1,5 +1,5 @@
 # Python基础
-
+>   Python在此扬帆起航！
 
 
 ## 1. Python起源
@@ -25,7 +25,7 @@ Python以其简洁、易读的语法、强大的标准库以及跨平台特性�
 
 Python是一种广泛使用的编程语言，具有许多优点和一些限制。以下是Python的主要优点和缺点：
 
-**Python的优点：**
+### Python的优点
 
 1.  **简单和易读的语法**：Python的语法非常直观和易于理解，使新手能够更轻松地入门编程。
 2.  **丰富的标准库**：Python附带了大量的标准库，用于处理各种任务，从文件操作到网络编程，再到数据分析和科学计算。
@@ -37,7 +37,7 @@ Python是一种广泛使用的编程语言，具有许多优点和一些限制�
 8.  **动态类型系统**：Python的动态类型系统允许更快的开发迭代和灵活性。
 9.  **大数据和数据科学**：Python在大数据处理和数据科学领域非常受欢迎，有许多库和框架，如NumPy、Pandas、Matplotlib、SciPy和TensorFlow。
 
-**Python的缺点：**
+### Python的缺点
 
 1.  **性能**：Python通常比编译语言（如C++）慢，尤其在计算密集型任务中，性能可能成为问题。
 2.  **全局解释器锁（GIL）**：在CPython（Python的标准实现）中，有一个全局解释器锁，它防止多线程Python程序在多核处理器上充分利用多核。这对于多线程应用可能是限制因素。
@@ -52,7 +52,7 @@ Python是一种广泛使用的编程语言，具有许多优点和一些限制�
 
 ## 3. Python的安装
 
-**安装Python解释器**
+### 安装Python解释器
 
 *   **Windows**
 
@@ -91,7 +91,7 @@ Python是一种广泛使用的编程语言，具有许多优点和一些限制�
     4.  在安装向导中，确保选择“Install launcher for all users”选项，以确保Python可执行文件可以从终端访问。
     5.  完成安装。
 
-**安装ipython交互环境**
+### 安装ipython交互环境
 
 >   ipython是一个增强的交互式Python解释器，它提供了比标准Python REPL（Read-Eval-Print Loop）更多的功能和特性。ipython的目标是使交互式编程更加强大、便捷和有趣。
 >
@@ -127,9 +127,11 @@ pip install ipython -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 ![image-20231031004312176](https://gitee.com/taknife/images-note/raw/master/imgs/image-20231031004312176.png)
 
-**安装集成开发环境IDE**
+### 安装集成开发环境IDE
 
 >   Python的集成开发环境有很多，入Pycharm、VSCode、IDLE等，此次以Pycharm为例。
+
+**安装Pycharm**
 
 1.  **下载PyCharm**：访问PyCharm的官方网站https://www.jetbrains.com/pycharm/download/并下载你想要的版本（Community版或Professional版）。Community版是免费的，而Professional版需要付费许可证。
 2.  **运行安装程序**：双击下载的安装程序（通常是一个.exe文件）来运行安装向导。
