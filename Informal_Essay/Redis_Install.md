@@ -179,6 +179,6 @@ sudo systemctl restart redis-server
 
 >   文章下载地址：
 >
->   Github: <https://github.com/taknife/CnblogsNotes/blob/main/Informal_Essay/Redis%20Install.md>
+>   Github: <https://github.com/taknife/CnblogsNotes/blob/main/Informal_Essay/Redis_Install.md>
 >
->   Gitee: <https://gitee.com/taknife/cnblogs-notes/blob/main/Informal_Essay/Redis%20Install.md>
+>   Gitee: <https://gitee.com/taknife/cnblogs-notes/blob/main/Informal_Essay/Redis_Install.md>
