@@ -176,3 +176,9 @@ sudo systemctl restart redis-server
 连接Redis，<font color=red>注意：pycharm连接数据库需要下载相应的数据库插件</font>
 
 ![image-20231101105846703](https://gitee.com/taknife/images-note/raw/master/imgs/image-20231101105846703.png)
+
+>   文章下载地址：
+>
+>   Github: <https://github.com/taknife/CnblogsNotes/blob/main/Informal_Essay/Redis%20Install.md>
+>
+>   Gitee: <https://gitee.com/taknife/cnblogs-notes/blob/main/Informal_Essay/Redis%20Install.md>
