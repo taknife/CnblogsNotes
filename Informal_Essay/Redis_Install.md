@@ -102,7 +102,7 @@ sudo systemctl restart redis-server
 
 >   为了增强 Redis 的安全性，你可以设置密码认证，要求客户端提供密码才能访问 Redis 服务器。你可以在 Redis 配置文件中设置密码。
 
-*   打开配置文件，找到`requirepass`参数，将其取消注释，并配置密码。例如：配置密码`admin.123`。
+*   打开配置文件，找到 `requirepass` 参数，将其取消注释，并配置密码。例如：配置密码`admin.123`。
 
     ```bash
     requirepass admin.123
@@ -116,7 +116,7 @@ sudo systemctl restart redis-server
 
 >   在学习时，绝大部分调试Redis都不会在服务器上进行。我们可能会通过各种数据库工具来连接Redis，但是在做完如上的配置后，发现依旧无法连接Redis。在telnet服务器的6379端口后发现此端口不通，这是由于服务器默认只监听了127.0.0.1（本地回环地址）的6379端口，因此Redis需要绑定服务器网卡地址6379端口，来使我们能够通过服务器地址远程连接Redis。
 
-*   打开配置文件，找到`bind`参数，修改`bind`参数后内容，例如：10.101.125.15地址绑定6379端口。
+*   打开配置文件，找到 `bind` 参数，修改`bind`参数后内容，例如：10.101.125.15地址绑定6379端口。
 
     ```bash
     bind 10.101.125.15
@@ -124,9 +124,13 @@ sudo systemctl restart redis-server
 
     ![image-20231101104059092](https://gitee.com/taknife/images-note/raw/master/imgs/image-20231101104059092.png)
 
-    如果要绑定多个地址，`bind`后可接多个需要绑定的地址。
+    如果要绑定多个地址， `bind` 后可接多个需要绑定的地址。
 
-    保存并退出，记得重启Redis服务`redis-server`
+    保存并退出，记得重启Redis服务 `redis-server`
+    
+    <font color=red>tips: </font> 可以使用 `netstat -tuln` 来查看系统本地监听端口，从而排查是否能够远程连接
+    
+    ![image-20231101111540319](https://gitee.com/taknife/images-note/raw/master/imgs/image-20231101111540319.png)
 
 ### 其他配置
 
